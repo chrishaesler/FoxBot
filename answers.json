@@ -1,0 +1,45 @@
+{"intents": 
+    [
+        {"tag": "delivery",
+        "patterns": 
+            [
+                "What is the parcel status?", "Where is my parcel", "What is the delivery status?", "Where is my order?", "Give me the status of my delivery.", 
+                "Where is the parcel number?", "When is the shipping date?", "track my delivery", "where can I track my delivery", "I want to track my parcel", 
+                "track my parcel", "track my order", "follow my order", "follow my parcel", "I want to track my order", "give me the shipping date of my parcel",
+                "give me the shipping date of your order", "I want to track my delivery", "My sending number is 99.542542.245.425", "track my parcel with sending number XY",
+                "track delivery", "trace delivery", "track parcel"
+            ],
+        "answers": 
+            [
+                "You can check the current status of your parcel delivery under \"My Deliveries\" with your parcel number.",
+                "The exact shipping date can be seen under \"My Deliveries\""
+            ]
+        },
+        {"tag": "location",
+        "patterns":
+            [
+                "Where is the nearest location?", "Where is the next location?", "What branch is closest to me?", "What services are offered in my branch?", 
+                "What services do you offer at the location?", "What are the opening hours?", "Is the branch open on saturday?", "do you deliver on weekends?",
+                "Is the post location in bern open on sundays?", "Is the location openend on weekends?", "locations", "opening hours", "open on weekends", "post location",
+                "location open", "post location services"
+            ],
+        "answers": 
+            [
+                "All the locations and services from Swiss Post can be found on a map in the online search.",
+                "The locations and services of every branch can be checked on our online location search."
+            ]
+        },
+        {"tag": "profile", 
+            "patterns":
+                [
+                    "Where do I change my personal data?", "Can I change my address?", "I want to change my name", "I want to adjust my profile", "I want to update my telephone number",
+                    "Change my email address", "Change my data", "I want to update my profile", "Can I update my data", "update data", "update profile", "adjust profile", "adjust", "adjust data"
+                ],
+            "answers": 
+                [
+                    "You can change your personal data on your profile.", 
+                    "All your data can be changed on your personal profile."
+                ]
+        }
+    ]
+}
