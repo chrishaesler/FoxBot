@@ -5,7 +5,6 @@ var chatbot = function () {
 		chatTimer: false,
 
 		init: function () {
-			console.log("init")
 			$("#chat-submit").click(function (e) {
 				e.preventDefault();
 				let msg = $("#chat-input").val();
