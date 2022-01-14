@@ -6,3 +6,4 @@ tfmodel.index
 tfmodel.meta
 training_data.pickle
 tfmodel.data-00000-of-00001
+.vscode

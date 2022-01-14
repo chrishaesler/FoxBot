@@ -3,7 +3,7 @@ from bot import *
 import json
 PostBot = ChatBot()
 
-app = Flask(__name__, template_folder="..\chatbot\static")
+app = Flask(__name__, template_folder="static")
 
 @app.route("/")
 def home():

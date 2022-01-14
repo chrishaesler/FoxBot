@@ -3,6 +3,7 @@ import numpy as np
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.lancaster import LancasterStemmer
+import nltkmodules
 import json
 import pickle
 stemmer = LancasterStemmer()
