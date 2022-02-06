@@ -8,3 +8,4 @@ docker pull chrishaesler/foxbot
 ```bash
 docker run -d -p 5000:5000 chrishaesler/foxbot
 ```
+The app will run on localhost:5000
