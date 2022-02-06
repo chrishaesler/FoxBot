@@ -9,7 +9,4 @@ RUN pip install -r requirements.txt
 COPY app/ /opt/app/
 WORKDIR /opt/app
 
-EXPOSE 5000
-ENV FLASK_APP=app.py
-
-ENTRYPOINT flask run --host=0.0.0.0
+ENTRYPOINT FLASK_APP=app.py flask run --host=0.0.0.0
