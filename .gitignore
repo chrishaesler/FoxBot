@@ -2,8 +2,4 @@
 __pycache__
 checkpoint
 temp
-tfmodel.index
-tfmodel.meta
-training_data.pickle
-tfmodel.data-00000-of-00001
 .vscode
