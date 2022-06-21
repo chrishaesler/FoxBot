@@ -1,4 +1,4 @@
-var chatbot = function () {
+const chatbot = function () {
 	return {
 		index: 0,
 		chatTimeout: 10000,
@@ -21,7 +21,11 @@ var chatbot = function () {
 				$(".chat-box").toggle();
 			})
 
-			chatbot.chatRequest({}, "chat_start", function (data, textStatus, jqXHR) {
+			chatbot.
+			
+			
+			
+			({}, "chat_start", function (data, textStatus, jqXHR) {
 				let answer = data
 
 				answer["answers"].forEach(function (item) {
@@ -109,7 +113,6 @@ var chatbot = function () {
 			let methodType = ""
 
 			switch (type) {
-
 				case "chat_start":
 					endpointUrl = "/init_chat";
 					methodType = "GET";
